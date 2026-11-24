@@ -1,0 +1,18 @@
+Build the make.fun news-image entry for Tuesday 24 November 2026 (competition slug news-image-20261124, deadline 2026-11-26 07:00 WIB).
+
+The entry is FULLY PREPARED in this workspace at ~/workspace/tools/makefun/entries/news-image-20261124/ — do NOT rebuild the poster from scratch and do NOT copy code from any earlier news-image entry. Your job in this session is to verify it, create the repo AFTER the competition opens, and submit it from this session so the authorship gates pass.
+
+What is ready:
+- main.py — fresh generator written 24 Nov 2026 (56 stories, 7 regions, 16 illustrated panels, dot-matrix world map with 7 numbered pins, UTC timeline, by-the-numbers + weather strips, "left out & why" box). Run it: python3 main.py — entry.png must come out 1024x1024, deterministic, sha256 9f26de7da70a9152add71bc74fa22d17bcea8e46884f628841231a4926604094 (214,837 bytes). The image was visually inspected: no clipping, no overlap, left-out box fits on one line, map pins 17/26 separated.
+- entry.png — 1024x1024, deterministic across runs (verified byte-identical twice).
+- SOURCES.md — all 56 stories with outlet + URL. Just Security Early Edition for 24 Nov was NOT yet published at build time (06:30 WIB); stories verified against Reuters / AP / BBC / PANA / Radio Generation Kenya / Rio Times / AppiSToS.
+- README.md — with the 3 live make.fun badges for news-image-20261124.
+- LICENSE — MIT with SPDX-License-Identifier line.
+- .makefun/owner.json — handle salikamarlisa3-cell, wallet BYdLgKzRgfuddmdUtL8DzqjJw4pCpn4z2EYUfwQQrzQo.
+
+Steps:
+1. Verify in this session: account handle salikamarlisa3-cell, keypair and owner.json match; run python3 main.py and confirm the sha256 above; open entry.png and visually confirm no clipping or overlap.
+2. Create a NEW PUBLIC GitHub repo named global-edition-news-image-20261124 under salikamarlisa3-cell — ONLY AFTER 07:00 WIB on 24 Nov 2026 (the competition opens 2026-11-24T00:00Z; a repo created before that is rejected at submit with repo_created_after_open — this burned the 20261123 prep). Push the prepared files as the first commit. Set the repo About: homepage https://make.fun, topic makefun.
+3. Submit to make.fun competition news-image-20261124 with title "The World in One Day — Tuesday 24 November 2026" from this session, following the kit's checks, and record the submission id + claim code in ~/workspace/tools/makefun/submissions.txt and a SUBMISSION-REPORT.md under ~/workspace/tools/makefun/entries/news-image-20261124/.
+
+Do NOT submit anything else, do NOT create the repo before 07:00 WIB, and do NOT reuse code or files from earlier news-image editions.
